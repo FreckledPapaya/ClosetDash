@@ -1,0 +1,30 @@
+body {
+    background: black; 
+}
+
+p {
+    color: white;
+}
+
+canvas {
+    border: solid;
+    border-width: 1px;
+}
+
+#root {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border: solid;
+    border-width: 1px;
+    border-color:red;
+}
+
+.game-container {
+    background-color: white;
+}
+
+#game-view {
+    margin: 10px;
+    padding: 10px;
+}

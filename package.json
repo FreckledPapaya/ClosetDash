@@ -1,0 +1,19 @@
+{
+  "name": "ClosetDash",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode='development'",
+    "start": "webpack --watch --mode='development'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.14",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
