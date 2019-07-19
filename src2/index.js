@@ -12,10 +12,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.ctx = ctx;
   window.MovingObj = MovingObj;
-  window.Block = Block;
+
+  let options = {
+    pos: [0,0],
+    vel: null,
+    game: null
+  };
+  let block  = new Block(options);
+
+  block.draw(ctx);
   // canvas.addEventListener("mouseover", game.displayPlay);
   // canvas.addEventListener("click", game.handleClick);
-  // canvas.addEventListener("onkkeydown", e => {
-  //   console.log(e);
-  // });
+
 });

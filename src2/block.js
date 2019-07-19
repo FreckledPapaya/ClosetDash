@@ -11,7 +11,6 @@ class Block extends MovingObj {
     let x = this.pos[0] * this.scale;
     let y = this.pos[1] * this.scale;
     let img = new Image();
-    debugger
     img.src = rock;
     img.onload = () => {
       ctx.drawImage(img, x, y);

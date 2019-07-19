@@ -12,7 +12,6 @@ class MovingObj {
   }
 
   draw(ctx) {
-    debugger
     let x = this.pos[0] * this.scale;
     let y = this.pos[1] * this.scale;
     let img = new Image();
